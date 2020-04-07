@@ -1,0 +1,177 @@
+body{
+    font-family:Arial;
+    margin:0;
+}
+
+blockquote{
+    font-family:serif;
+    border-left:solid;
+    border-color:#ddd;
+    border-width:4px;
+    padding-left:10px;
+}
+
+
+nav{
+    float:left;
+    background-color:#1c1c1c;
+    color:#adadad;
+    margin-right:30px;
+    padding:10px;
+    width:20%;
+    height:100%;
+    font-size:15px;
+    position:fixed;
+}
+
+#desno{
+    float:right;
+    width:20%;
+    height:100%;
+    font-size:15px;
+    position:absolute;
+    right:0;
+}
+
+.kartica{
+    border-style:solid;
+    border-color:#1c1c1c;
+    border-width:1px; 
+    margin:10px;   
+    margin-bottom:50px;
+}
+
+.nkartice{
+    background-color:#1c1c1c;
+    color:#adadad;
+    padding:10px;
+}
+.diokartice{
+    border-bottom-style:solid;
+    border-bottom-color:#1c1c1c;
+    border-bottom-width:1px;
+    padding:20px;
+}
+
+.diokartice > a{
+    color:black;
+    text-decoration:none;
+}
+
+#flex{
+display:flex;
+}
+
+footer, #fmobile{
+padding:15px;
+text-align:center;
+}
+
+footer{
+left:0;
+bottom:0;
+}
+
+#sadrzaj{
+margin-left:25%;
+padding:10px;
+margin-right:25%;
+}
+
+li > a, footer > a, #fmobile > a{
+color:#adadad;
+}
+#lista-meni{
+list-style:none;
+}
+
+header{
+font-size:48px;
+}
+
+a{
+color:blue;
+}
+
+section{
+text-align:justify;
+}
+
+#fmobile{
+display:none;
+}
+
+header > b > a{
+    color:#adadad;
+    text-decoration:none;
+}
+
+.kslika{
+    width:25%;
+}
+.ktekst{
+    padding-bottom:20px;
+}
+
+#hamburger{
+    width:32px;
+    display:none;
+}
+
+@media only screen and (max-width: 950px) {
+
+header{
+font-size:200%;
+padding:10px;
+padding-bottom:5%;
+}
+
+nav {
+float:none;
+width:auto;
+height:100%;
+margin:0;
+position:static;
+font-size:20px;
+}
+#lista-meni{
+    display:none;
+}
+footer{
+    display:none;
+}
+#fmobile{
+display:block!important;
+background-color:#1c1c1c;
+color:#adadad;
+}
+#desno{
+float:none;
+width:auto;
+height:100%;
+margin:0;
+position:absolute;
+left:0;
+}
+#sadrzaj{
+float:none;
+width:auto;
+margin:0;
+margin-bottom:100px;
+}
+#flex{
+    display:block;
+}
+
+#hamburger{
+	display:block;
+	float:right;
+	padding:2%;
+	cursor:pointer;
+}
+#hamburger:hover{
+	background-color:#0c0c0c;
+}
+
+}
+
