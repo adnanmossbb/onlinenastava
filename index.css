@@ -10,7 +10,9 @@ blockquote{
     border-width:4px;
     padding-left:10px;
 }
-
+.cslika{
+    width:60%;
+}
 
 nav{
     float:left;
@@ -124,6 +126,10 @@ header{
 font-size:200%;
 padding:10px;
 padding-bottom:5%;
+}
+
+.cslika{
+    width:100%;
 }
 
 nav {
