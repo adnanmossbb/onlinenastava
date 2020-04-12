@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online nastava</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="index.css"/>
+	</head>
+	<body>
+	<div id="flex">	
+	<nav id="meni">
+	<header>
+		<b><a href="index.html">Online nastava</a></b>
+		<img src="images/hamburger.png" id="hamburger" onclick="meni()"/>
+	</header>
+	<ul id="lista-meni">
+	    <li><a href="index.html">Naslovna</a></li>
+	    <li><a href="iskustvo.html">Lično iskustvo autora</a></li>
+	    <li><a href="platforme.html">Platforme</a></li>
+	    <li>
+		<ul>
+		    <li><a href="platforme.html#google">Google Classroom</a></li>
+		    <li><a href="platforme.html#office">Office 365 (Teams i Yammer)</a></li>
+		    <li><a href="platforme.html#moodle">Moodle</a></li>
+		</ul>
+	    </li>
+	    <li><a href="bih.html">Bosna i Hercegovina</a></li>
+		<li><ul>
+	   	    <li><a href="bih.html#ks">Kanton Sarajevo</a></li>
+		    <li><a href="bih.html#fbih">Federacija</a></li>
+		    <li><a href="bih.html#rs">Republika Srpska</a></li>
+		    <li><a href="bih.html#brcko">Brčko Distrikt</a></li>
+		</ul></li>
+	    <li><a href="regija.html">Regija</a></li>
+	    <li>
+		<ul>
+	   	    <li><a href="regija.html#hrv">Hrvatska</a></li>
+		    <li><a href="regija.html#srb">Srbija</a></li>
+		    <li><a href="regija.html#slo">Slovenija</a></li>
+		    <li><a href="regija.html#cg">Crna Gora</a></li>
+		</ul>
+	    </li>
+	    <li><a href="svijet.html">Svijet</a></li>
+	    <li><a href="ostranici.html">O stranici</a></li>
+	</ul>
+	<footer>&copy; <a href="https://github.com/adnanmossbb/">Adnan Muradbegović</a> 2020.</footer>	
+	</nav>
+	<div id="sadrzaj">
+	<h1>Online nastava u svijetu</h1>
+	<section>
+	    <p>U mnogim dijelovima svijeta škole su zatvorene zbog pandemije koronavirusa. Kako bi učenici savladali gradivo, mnoge vlade i škole organizuju online nastavu ili neki drugi oblik učenja na daljinu </p>
+	    <p>
+	      U razvijenijim zemljama svijeta, vlade i škole su se uspjele bolje snaći u ovoj situaciji nego one u siromašnijim zemljama.
+	      Zoom, platforma za video konferencije, stekla je iznimnu popularnost u cijelom svijetu, upravo  zato što ljudi u ovo vrijeme
+	      pandemije rade i uče u svojim domovima ali kad tad moraju razgovarati sa svojim kolegama lice u lice. No i mnoge bogate zemlje
+	      nisu od početka krize imale adekvatnu platformu za učenje na daljinu. Još jedan problem je i da mnoge porodice imaju jedan računar
+	      koji dijele, pa šta onda ako djeca imaju različite časove u isto vrijeme? 
+	    </p>
+	    <p>
+	      Siromašnije države su se našle u mnogo goroj situaciji. Mnoga kućanstva nemaju pristup Internetu, mnoga ni televizor, pa je
+	      u tim slučajevima skoro nemoguće organizovati učenje na daljinu. Nažalost, svim ljudima na planeti nije moguće jednako kvalitetno obrazovanje.</p>
+	</section>
+	</div>
+	<div id="desno">	
+	    <div class="kartica">
+		<div class="nkartice">
+		    <h1>Savjeti</h1>
+		</div>
+		<div class="diokartice">
+	   	    <a href="savjet0.html">Olakšajte sebi online nastavu</a>
+		</div>	
+		<div class="diokartice">	
+	   	    <a href="savjet1.html">Iskoristite vrijeme u kućnoj izolaciji i naučite nešto novo</a>
+		</div>
+		<div class="diokartice"> 
+	   	    <a href="savjet2.html">Postanite produktivniji u radu za računarom</a>
+		</div>
+	    </div>	
+	    <div class="kartica">
+		<div class="nkartice">
+		    <h1>Korisni linkovi</h1>
+		</div>
+		<div class="diokartice"> 
+	   	    <a href="https://mon.ks.gov.ba/aktuelno/novosti/preporuke-za-izvodenje-online-nastave">Preporuke za izvođenje online nastave.</a>
+		</div>	
+		<div class="diokartice"> 
+	   	    <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/">Portal o COVID-19 Svjetske Zdravstvene Organizacije</a>
+		</div>
+		<div class="diokartice"> 
+	   	    <a href="https://bhrt.ba/kategorija/bht1-emisije/domaca-zadaca/">Sve epizode emisije "Domaća Zadaća"</a>
+		</div>
+	    </div>
+	    <div id="fmobile">&copy; <a href="https://github.com/adnanmossbb/">Adnan Muradbegović</a> 2020.</div>
+	</div>    
+	</div>
+	
+	<script>
+	function meni() {
+  		var x = document.getElementById("lista-meni");
+  		if (x.style.display === "block") {
+    			x.style.display = "none";
+  		} else {
+    			x.style.display = "block";
+  		}
+	} 
+	</script>
+     </body>
+</html>
