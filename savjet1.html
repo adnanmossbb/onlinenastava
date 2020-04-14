@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online nastava</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="index.css"/>
+	</head>
+	<body>
+	<div id="flex">	
+	<nav id="meni">
+	<header>
+		<b><a href="index.html">Online nastava</a></b>
+		<img src="images/hamburger.png" id="hamburger" onclick="meni()"/>
+	</header>
+	<ul id="lista-meni">
+	    <li><a href="index.html">Naslovna</a></li>
+	    <li><a href="iskustvo.html">Lično iskustvo autora</a></li>
+	    <li><a href="platforme.html">Platforme</a></li>
+	    <li>
+		<ul>
+		    <li><a href="platforme.html#google">Google Classroom</a></li>
+		    <li><a href="platforme.html#office">Office 365 (Teams i Yammer)</a></li>
+		    <li><a href="platforme.html#moodle">Moodle</a></li>
+		</ul>
+	    </li>
+	    <li><a href="bih.html">Bosna i Hercegovina</a></li>
+		<li><ul>
+	   	    <li><a href="bih.html#ks">Kanton Sarajevo</a></li>
+		    <li><a href="bih.html#fbih">Federacija</a></li>
+		    <li><a href="bih.html#rs">Republika Srpska</a></li>
+		    <li><a href="bih.html#brcko">Brčko Distrikt</a></li>
+		</ul></li>
+	    <li><a href="regija.html">Regija</a></li>
+	    <li>
+		<ul>
+	   	    <li><a href="regija.html#hrv">Hrvatska</a></li>
+		    <li><a href="regija.html#srb">Srbija</a></li>
+		    <li><a href="regija.html#slo">Slovenija</a></li>
+		    <li><a href="regija.html#cg">Crna Gora</a></li>
+		</ul>
+	    </li>
+	    <li><a href="svijet.html">Svijet</a></li>
+	    <li><a href="ostranici.html">O stranici</a></li>
+	</ul>
+	<footer>&copy; <a href="https://github.com/adnanmossbb/">Adnan Muradbegović</a> 2020.</footer>	
+	</nav>
+	<div id="sadrzaj">
+	<h1>Iskoristite vrijeme u kućnoj izolaciji i naučite nešto novo</h1>
+	<section>
+	<p>Da li vas interesuje neka oblast ali ste imali previše obaveza tako da niste imali vremena koje biste posvetili toj oblasti? Da li vam je potrebno znanje kojem vas škola ne uči? Ili vam je možda dosadno, a vrijeme želite iskoristiti za nešto korisno? Evo nekoliko stvari koje možete naučiti ili barem početi sa učenjem dok ste kod kuće, zaštićeni od širenja virusa.</p>
+	<p>Većinu vještina nije moguće naučiti za nekoliko mjeseci, ali sa mnogim bar možete početi ili usavršiti neko zanje koje ste imali i prije, ali niste imali vremena da se njim puno bavite. Imam nekoliko prijedloga za vještine koje bi mogli pokušati naučiti sada kada je boravak na otvorenom nemoguć.</p>
+
+	<h2>Bilo koja oblast ili nauka koja vas je prije zanimala</h2>
+	<p>Zanima vas Ekonomija? Fizika? Socijologija? Računarstvo? Mašinstvo? Zašto ne biste ovo vrijeme iskoristili da naučite više o toj oblasti. Sa samih <a href="https://www.wikipedia.org">Wikipedijinih</a> stranica možete naučiti mnogo. Također postoje mnoge video lekcije na platformi YouTube, ali i mnoge lekcije u tekstnom obliku na mnoštvu stranica na World Wide Webu. Naravno, nemojte zaboraviti provjeriti tačnost svojih izvora.</p>
+	<h2>Kreativne i umjetničke vještine</h2>
+	<p>Slobodno vrijeme u kući možete iskoristiti i da se usavršite u naprimjer - crtanju. Vjerovatno trenutno niste u mogućnosti da nabavite novi pribor za crtanje, ali korištenje samo onoga što vam je trenutno dostupno može kod vas pobuditi još veću kreativnost i snalažljivost. </p>
+	
+
+	</div>
+	<div id="desno">	
+	    <div class="kartica">
+		<div class="nkartice">
+		    <h1>Savjeti</h1>
+		</div>
+		<div class="diokartice">
+	   	    <a href="savjet0.html">Olakšajte sebi online nastavu</a>
+		</div>	
+		<div class="diokartice">	
+	   	    <a href="savjet1.html">Iskoristite vrijeme u kućnoj izolaciji i naučite nešto novo</a>
+		</div>
+		<div class="diokartice"> 
+	   	    <a href="savjet2.html">Postanite produktivniji u radu za računarom</a>
+		</div>
+	    </div>	
+	    <div class="kartica">
+		<div class="nkartice">
+		    <h1>Korisni linkovi</h1>
+		</div>
+		<div class="diokartice"> 
+	   	    <a href="https://mon.ks.gov.ba/aktuelno/novosti/preporuke-za-izvodenje-online-nastave">Preporuke za izvođenje online nastave.</a>
+		</div>	
+		<div class="diokartice"> 
+	   	    <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/">Portal o COVID-19 Svjetske Zdravstvene Organizacije</a>
+		</div>
+		<div class="diokartice"> 
+	   	    <a href="https://bhrt.ba/kategorija/bht1-emisije/domaca-zadaca/">Sve epizode emisije "Domaća Zadaća"</a>
+		</div>
+	    </div>
+	    <div id="fmobile">&copy; <a href="https://github.com/adnanmossbb/">Adnan Muradbegović</a> 2020.</div>
+	</div>    
+	</div>
+	
+	<script>
+	function meni() {
+  		var x = document.getElementById("lista-meni");
+  		if (x.style.display === "block") {
+    			x.style.display = "none";
+  		} else {
+    			x.style.display = "block";
+  		}
+	} 
+	</script>
+     </body>
+</html>
